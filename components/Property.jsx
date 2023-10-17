@@ -31,11 +31,12 @@ const Property = ({
       paddingTop="0px"
       justifyContent="flex-start"
       cursor="pointer"
+      
     >
       <Box>
         <Image
           src={coverPhoto ? coverPhoto.url : DefaultImage}
-          width={400}
+          width={400}         
           height={260}
         />
       </Box>
