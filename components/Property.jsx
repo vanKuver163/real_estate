@@ -34,9 +34,12 @@ const Property = ({
     >
       <Box>
         <Image
+          alt="image"
           src={coverPhoto ? coverPhoto.url : DefaultImage}
-          width={400}         
-          height={260}
+          width="0"         
+          height="0"
+          sizes="100vw"
+          style={{ width: '400px', height: '260px' }}
         />
       </Box>
       <Box w="full">
